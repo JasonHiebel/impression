@@ -61,12 +61,14 @@ The most general and most often used environment is the *post* environment.
 
 Note that the date range is expressed using two arguments. This arose during early experiments in which significant interest was expressed in styling the beginning date differently that the ending date (so as to place the ending date more prominently).
 
-Two other common environments are the *topic* and *entry* environments.
+Two other common environments are the *topic* environment:
 
 	\begin{topic}
     {Topic Heading}
     Titled content
     \end{topic}
+
+and *entry* environment:
 
     \begin{entry}
     Untitled, "floating" content
